@@ -8,44 +8,77 @@
     <title>Document</title>
 </head>
 <body>
-    <table class="table">
-        <tr>
-            <td>Employee Code</td>
-            <td><input type="text" class="form_control"></td>
-        </tr>
-        <tr>
-            <td>Employee Name</td>
-            <td><input type="text" class="form_control"></td>
-        </tr>
-        <tr>
-            <td>Age</td>
-            <td><input type="text" class="form_control"></td>
-        </tr>
-        <tr>
-            <td>Address</td>
-            <td><input type="text" class="form_control"></td>
-        </tr>
-        <tr>
-            <td>Email</td>
-            <td><input type="text" class="form_control"></td>
-        </tr>
-        <tr>
-            <td>Designation</td>
-            <td><input type="text" class="form_control"></td>
-        </tr>
-        <tr>
-            <td>Salary</td>
-            <td><input type="text" class="form_control"></td>
-        </tr>
-        <tr>
-            <td>Company Name</td>
-            <td><input type="text" class="form_control"></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td><button class="btn btn-success"> submit </button></td>
-        </tr>
-    </table>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Employee</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Add Emp</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/viewemp">View Emp</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+        <div class="container">
+            <div class="row">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+     <form action="/" method="post">
+        <table class="table">
+            
+            <tr>
+                <td>Employee Code</td>
+                <td><input type="text" name="EmployeeCode" class="form_control"></td>
+            </tr>
+            <tr>
+                <td>Employee Name</td>
+                <td><input type="text" name="EmployeeName"vclass="form_control"></td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><input type="text" name="Age" class="form_control"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><input type="text" name="Address" class="form_control"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" name="Email" class="form_control"></td>
+            </tr>
+            <tr>
+                <td>Designation</td>
+                <td><input type="text" name="Designation" class="form_control"></td>
+            </tr>
+            <tr>
+                <td>Salary</td>
+                <td><input type="text" name="Salary" class="form_control"></td>
+            </tr>
+            <tr>
+                <td>Company Name</td>
+                <td><input type="text" name="CompanyName" class="form_control"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit" name="btn" class="btn btn-success"> submit </button></td>
+            </tr>
+                   
+        </table>
+    </form>
+                </div>
+            </div>
+        </div>
+    
+  
+   
 
 
 
