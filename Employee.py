@@ -75,5 +75,11 @@ def Viewall():
     result=cursor.fetchall()
     return render_template("viewemp.html",employeedata=result)
 
+
 if __name__ == "__main__":
     app.run()
+
+
+
+
+
